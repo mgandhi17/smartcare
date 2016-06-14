@@ -150,7 +150,14 @@ As machine learning technologies continue to evolve, the platform will continue 
     <!-- Custom Theme JavaScript -->
     <script src="js/clean-blog.min.js"></script>
     <script type = "text/javascript">
-           $('.widget-link').text("mohit");
+    setTimeout(function(){
+        greet();
+    }, 1000);
+    function greet(){
+        $('.widget-link').text("mohit");
+        alert("mohit");
+    }
+           
       </script>
 </body>
 
